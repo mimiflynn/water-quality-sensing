@@ -9,6 +9,19 @@ Lead affectime residential homes
 Place a sensor on water tanks (for example on toilet tanks)
 Use a cheap distribution network
 
+## Our Approach
+
+Monitor for lead content in water sources at the point of use. By placing a sensor in a toilet tank, the sensor will have a fresh tank of water to sample with every flush.
+Sensor data will be sent via long-range radio network (LoRaWAN) where the data can be monitored by various applications through MQTT subscriptions.
+
+These applications can trigger notifications (for example emails, text messages, etc), store in a DB and analyze the data.
+
+Our proposal is superior to existing solutions because:
+> It minimises the human intervention 
+> It uploads the information automatically to a centralized database, therefore it can be used to advocate for residents.
+
+
+
 ## Requirements
 
 ### Technology requirements
